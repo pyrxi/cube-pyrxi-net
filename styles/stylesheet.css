@@ -1,7 +1,12 @@
+@font-face {
+  font-family: "rubik";
+  src: url("../fonts/ofl/rubik/Rubik-VariableFont_wght.ttf");
+}
+
 body {
-  background-color: #001200;
-  color: #33ff33;
-  font-family: monospace;
+  background-color: #000400;
+  color: #66ff66;
+  font-family: "rubik", monospace;
 }
 
 .grid-container {
@@ -10,27 +15,14 @@ body {
   grid-template-rows: 3fr 2fr 12fr 1fr;
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.title h1 {
-  font-size: 2em;
-  color: #33ff33;
-}
-
 .nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  list-style: square;
+  color: #3333ff;
 }
 
-.nav li {
-    list-style: square;
-    color: #3333ff;
-}
 
 a:hover {
   color: #9900ff;
@@ -41,3 +33,10 @@ a {
   color: #3333ff;
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6em;
+  color: #33ff33;
+}
