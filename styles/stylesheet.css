@@ -17,8 +17,8 @@
 }
 
 body {
-  background-color: #000000;
-  color: #66ff66;
+  background-color: #060806;
+  color: #ccddcc;
   font-family: "iosevka-term-light", monospace;
 }
 
@@ -34,15 +34,15 @@ a {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 6fr 1fr;
   grid-template-rows: auto auto auto auto;
   column-gap: 0.4em;
   row-gap: 0.4em;
 }
 
 .grid-main {
-  background-color: #000800;
-  padding: 8px;
+  background-color: #000900;
+  padding: 10px;
 }
 
 .grid-image {
@@ -68,7 +68,16 @@ a {
   justify-content: space-evenly;
   align-items: center;
   list-style: square;
+<<<<<<< Updated upstream
   color: #6666ff;
+=======
+<<<<<<< HEAD
+  color: #2222ff;
+  font-size: 1.4em;
+=======
+  color: #6666ff;
+>>>>>>> 8a1efd028f7364fd44df3aaf5d654a751ed81bc2
+>>>>>>> Stashed changes
 }
 
 .sidebar {
@@ -77,11 +86,19 @@ a {
   justify-content: center;
   align-items: flex-start;
   list-style: square;
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  color: #2222ff;
+  font-size: 1.4em;
+=======
+>>>>>>> Stashed changes
   color: #6666ff;
 }
 
 a:visited {
   color: #3333ff;
+>>>>>>> 8a1efd028f7364fd44df3aaf5d654a751ed81bc2
 }
 
 .title {
@@ -90,6 +107,10 @@ a:visited {
   align-items: center;
   font-size: 1.8em;
   font-family: "iosevka-term-bold";
+}
+
+a:visited {
+  color: #2222ff;
 }
 
 a:hover {
