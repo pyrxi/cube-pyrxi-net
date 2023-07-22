@@ -16,6 +16,10 @@
   font-weight: bold;
 }
 
+:root {
+  --hypertext: rgb(102, 102, 255);
+}
+
 body {
   background-color: #060806;
   color: #ccddcc;
@@ -68,16 +72,8 @@ a {
   justify-content: space-evenly;
   align-items: center;
   list-style: square;
-<<<<<<< Updated upstream
-  color: #6666ff;
-=======
-<<<<<<< HEAD
-  color: #2222ff;
   font-size: 1.4em;
-=======
-  color: #6666ff;
->>>>>>> 8a1efd028f7364fd44df3aaf5d654a751ed81bc2
->>>>>>> Stashed changes
+  color: var(--hypertext);
 }
 
 .sidebar {
@@ -86,19 +82,12 @@ a {
   justify-content: center;
   align-items: flex-start;
   list-style: square;
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  color: #2222ff;
   font-size: 1.4em;
-=======
->>>>>>> Stashed changes
   color: #6666ff;
 }
 
 a:visited {
-  color: #3333ff;
->>>>>>> 8a1efd028f7364fd44df3aaf5d654a751ed81bc2
+  color: var(--hypertext);
 }
 
 .title {
